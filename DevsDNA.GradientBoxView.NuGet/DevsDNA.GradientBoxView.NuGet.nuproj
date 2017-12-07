@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E12297E5-052A-4095-AFC2-CAC2BBD53896}</ProjectGuid>
+    <Description>An empowered BoxView with 2-color gradients.</Description>
+    <PackageId>DevsDNA.GradientBoxView</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Marcos Cobeña Morián</Authors>
+    <DevelopmentDependency>false</DevelopmentDependency>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DevsDNA.GradientBoxView</RootNamespace>
+    <UsePartialTypes>false</UsePartialTypes>
+    <AssemblyName>DevsDNA.GradientBoxView.NuGet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevsDNA.GradientBoxView.Android\DevsDNA.GradientBoxView.Android.csproj">
+      <Project>{21B43B79-0A3B-46F4-BC60-99FAFB0178FA}</Project>
+      <Name>DevsDNA.GradientBoxView.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevsDNA.GradientBoxView.iOS\DevsDNA.GradientBoxView.iOS.csproj">
+      <Project>{AF79AC2A-FD4F-4116-B3C4-BAC6C94B15A3}</Project>
+      <Name>DevsDNA.GradientBoxView.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevsDNA.GradientBoxView\DevsDNA.GradientBoxView.csproj">
+      <Project>{F477F821-A149-4DC5-818E-DB9281BF62CA}</Project>
+      <Name>DevsDNA.GradientBoxView</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.0</Version>
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
+  <Import Project="$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets" Condition="Exists('$(NuGetAuthoringPath)\NuGet.Packaging.Authoring.targets')" />
+</Project>
