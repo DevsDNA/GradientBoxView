@@ -1,6 +1,6 @@
 # GradientBoxView
 
-An empowered Xamarin.Forms' BoxView with 2-color gradients.
+An empowered Xamarin.Forms' BoxView with 2-color gradients. [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.Battery.svg?label=NuGet)](https://www.nuget.org/packages/DevsDNA.GradientBoxView)
 
 ![Android & iOS](Screenshots/Screenshots.png)
 
@@ -10,7 +10,7 @@ An empowered Xamarin.Forms' BoxView with 2-color gradients.
 
 Just three easy steps:
 
-1. Add [DevsDNA.GradientBoxView](https://www.nuget.org/packages/DevsDNA.GradientBoxView) NuGet to both your PCL and platform projects;
+1. Add [DevsDNA.GradientBoxView](https://www.nuget.org/packages/DevsDNA.GradientBoxView) [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.Battery.svg?label=NuGet)](https://www.nuget.org/packages/DevsDNA.GradientBoxView) to both your PCL and platform projects;
 
 2. In your XAML file, add the following namespace –usually at the `ContentPage` root element:
 
