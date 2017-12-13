@@ -2,22 +2,24 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:devsdna="clr-namespace:DevsDNA;assembly=DevsDNA.GradientBoxView"
     x:Class="GradientBoxViewExample.GradientBoxViewExamplePage">
-    <AbsoluteLayout>
-    	<Grid x:Name="grid"
+    <AbsoluteLayout
+        WidthRequest="200"
+        HeightRequest="200"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        
+        <devsdna:GradientBoxView
             AbsoluteLayout.LayoutFlags="All"
             AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
-            RowSpacing="1"
-            ColumnSpacing="1" />
+            TopColor="#fc466b"
+            BottomColor="#3f5efb" />
+
         <Label
             AbsoluteLayout.LayoutFlags="PositionProportional"
             AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
-            HorizontalTextAlignment="Center">
-            <Label.Text>
-GradientBoxView:
-Xamarin.Forms gradients, 
-democratized
-            </Label.Text>
-        </Label>
+            Text="Simple. Elegant."
+            TextColor="White" />
     </AbsoluteLayout>
 </ContentPage>
