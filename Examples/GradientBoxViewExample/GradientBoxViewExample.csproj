@@ -51,7 +51,7 @@
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.121934\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="DevsDNA.GradientBoxView">
-      <HintPath>..\..\packages\DevsDNA.GradientBoxView.1.0.0\lib\portable45-net45+win8+wpa81\DevsDNA.GradientBoxView.dll</HintPath>
+      <HintPath>..\..\packages\DevsDNA.GradientBoxView.1.0.1\lib\portable45-net45+win8+wpa81\DevsDNA.GradientBoxView.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

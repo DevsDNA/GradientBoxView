@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>GradientBoxViewExample.Droid</RootNamespace>
     <AssemblyName>GradientBoxViewExample.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -107,11 +107,11 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.121934\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
-    <Reference Include="DevsDNA.GradientBoxView">
-      <HintPath>..\..\packages\DevsDNA.GradientBoxView.1.0.0\lib\monoandroid71\DevsDNA.GradientBoxView.dll</HintPath>
-    </Reference>
     <Reference Include="Java.Interop" />
     <Reference Include="System.Runtime" />
+    <Reference Include="DevsDNA.GradientBoxView">
+      <HintPath>..\..\packages\DevsDNA.GradientBoxView.1.0.1\lib\monoandroid71\DevsDNA.GradientBoxView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
