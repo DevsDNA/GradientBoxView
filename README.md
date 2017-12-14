@@ -2,9 +2,9 @@
 
 An empowered Xamarin.Forms' BoxView with 2-color gradients. [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.Battery.svg?label=NuGet)](https://www.nuget.org/packages/DevsDNA.GradientBoxView)
 
-![Android & iOS](Screenshots/Screenshots.png)
-
 (Inspired on [this Xamarin Forums thread](https://forums.xamarin.com/discussion/comment/240777/#Comment_240777).)
+
+![Android & iOS](Screenshots/Screenshots.png)
 
 ## How to use it
 
@@ -26,6 +26,6 @@ xmlns:devsdna="clr-namespace:DevsDNA;assembly=DevsDNA.GradientBoxView"
     BottomColor="Black" />
 ```
 
-If you're looking for more complex gradients –more than 2 colors, for instance– [XFGloss](https://github.com/tbaggett/xfgloss) may fit your needs.
+(If you're looking for more complex gradients –more than 2 colors, for instance– [XFGloss](https://github.com/tbaggett/xfgloss) may fit your needs.)
 
 *Pst!* Have a look to the [Examples](Examples/) folder to get some inspiration!
