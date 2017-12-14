@@ -26,4 +26,6 @@ xmlns:devsdna="clr-namespace:DevsDNA;assembly=DevsDNA.GradientBoxView"
     BottomColor="Black" />
 ```
 
+If you're looking for more complex gradients –more than 2 colors, for instance– [XFGloss](https://github.com/tbaggett/xfgloss) may fit your needs.
+
 *Pst!* Have a look to the [Examples](Examples/) folder to get some inspiration!
