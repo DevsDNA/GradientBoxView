@@ -40,3 +40,9 @@ Thumbs.db
 *.dotCover
 
 \.droidres/
+
+\.vs/DevsDNA\.GradientBoxView/v15/Server/sqlite3/
+
+*.bak
+
+UpgradeLog\.htm

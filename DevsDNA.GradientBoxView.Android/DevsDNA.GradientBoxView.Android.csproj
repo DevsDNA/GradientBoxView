@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>DevsDNA.GradientBoxView</RootNamespace>
     <AssemblyName>DevsDNA.GradientBoxView</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
