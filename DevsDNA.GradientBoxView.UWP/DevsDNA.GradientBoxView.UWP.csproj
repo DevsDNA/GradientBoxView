@@ -115,7 +115,7 @@
       <Version>6.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>2.4.0.280</Version>
+      <Version>2.5.0.121934</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\DevsDNA.GradientBoxView.Shared\DevsDNA.GradientBoxView.Shared.projitems" Label="Shared" />

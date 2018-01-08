@@ -135,6 +135,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DevsDNA.GradientBoxView.UWP\DevsDNA.GradientBoxView.UWP.csproj">
+      <Project>{c53ba87c-952a-443a-967a-22091aa35112}</Project>
+      <Name>DevsDNA.GradientBoxView.UWP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GradientBoxViewExample\GradientBoxViewExample.csproj">
       <Project>{8255e58c-1326-49ce-9fb8-60b503093b05}</Project>
       <Name>GradientBoxViewExample</Name>

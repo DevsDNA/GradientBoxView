@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -49,6 +50,11 @@ namespace GradientBoxViewExample.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+
+                var rendererAssemblies = new List<Assembly>();
+                rendererAssemblies.Add(typeof(DevsDNA.GradientBoxView).GetTypeInfo().Assembly);
+                rendererAssemblies.Add(typeof(DevsDNA.GradientBoxViewUWP.GradientBoxViewRenderer).GetTypeInfo().Assembly);
+                Xamarin.Forms.Forms.Init(e, rendererAssemblies);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

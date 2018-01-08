@@ -8,8 +8,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsDNA.GradientBoxView.iOS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevsDNA.GradientBoxView.Android", "DevsDNA.GradientBoxView.Android\DevsDNA.GradientBoxView.Android.csproj", "{21B43B79-0A3B-46F4-BC60-99FAFB0178FA}"
 EndProject
-Project("{5DD5E4FA-CB73-4610-85AB-557B54E96AA9}") = "DevsDNA.GradientBoxView.NuGet", "DevsDNA.GradientBoxView.NuGet\DevsDNA.GradientBoxView.NuGet.nuproj", "{E12297E5-052A-4095-AFC2-CAC2BBD53896}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{AA8BE6E0-C714-48F7-94E1-0CA3B79C6A65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientBoxViewExample", "Examples\GradientBoxViewExample\GradientBoxViewExample.csproj", "{8255E58C-1326-49CE-9FB8-60B503093B05}"
