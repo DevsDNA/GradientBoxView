@@ -1,6 +1,6 @@
 # GradientBoxView
 
-An empowered Xamarin.Forms' BoxView with 2-color gradients. [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.Battery.svg?label=NuGet)](https://www.nuget.org/packages/DevsDNA.GradientBoxView)
+An empowered Xamarin.Forms' BoxView with 2-color gradients. [![NuGet](https://img.shields.io/nuget/v/DevsDNA.GradientBoxView.svg?label=NuGet)](https://www.nuget.org/packages/DevsDNA.GradientBoxView)
 
 (Inspired on [this Xamarin Forums thread](https://forums.xamarin.com/discussion/comment/240777/#Comment_240777).)
 
